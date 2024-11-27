@@ -6,6 +6,11 @@
 body {
   background-color: #181818;
 }
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+}
 
 .card-portofolio {
   display: grid;
@@ -20,24 +25,15 @@ body {
   background-color: #333;
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  margin-top: 0px;
-  margin-bottom: 30px;
 }
 
 .img-contanier {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  margin: 10px auto;
-}
-.img-contanier img {
-  width: 30%;
-  height: 80px;
+  width: 40%;  
   border-radius: 50%;
-  object-fit: cover;
   overflow: hidden;
+  margin: auto;
 }
+
 
 .information {
   display: flex;
